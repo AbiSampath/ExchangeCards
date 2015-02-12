@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brown"
+    tools:context="com.abinaya.business.MyCardActivity" >
+
+    <Button
+        android:id="@+id/exchangeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="@string/exchangeBtn" />
+
+    <EditText
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/exchangeBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:autoLink="web|email|phone"
+        android:background="#00000000"
+        android:ems="10"
+        android:linksClickable="true"
+        android:text="@string/textview"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
